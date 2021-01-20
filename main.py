@@ -3,6 +3,8 @@ print("CyberPunk 2049 Text adventure")
 name = input("What is your name? ")
 age = int(input("What is your age? "))
 gender = input("What is your gender? ")
+male = ("he, his")
+female = ("Her")
 # Prints back User's name and age
 print("Hello", name, "you are a",age, "year old", gender,)
 
@@ -24,12 +26,24 @@ if age >= 18:
             
             Threaten_or_Pursuade = input("Second choice (Threaten/Pursuade)?")
             if Threaten_or_Pursuade == "Threaten":
-                print("Look you don't wanna make the boss angry, otherwise I'll have to pay a late nigt visit to yout mother in" 
-                      "the mental ward")
+                print("Look you don't wanna make the boss angry, otherwise I'll have to pay a late night visit to yout mother in" 
+                      "the mental ward "
+                      "Sorry...I'll have those reports by midnight", name,
+                      ",We'll it's about fucking time I needed those reports by fucking yesterday Jensen! "
+                      "You ended the call")
                 
             else:
-                Pursuade = ("")
+                Pursuade = print("Look I get it your new to Yin tech, but if you help me out here I'll make sure your mother upgrades "
+                                 "to Tramua team platuim overnight free of charge."
+                                 "Alright, alright... Truth is I actually been had those reports done but we've been getting a infulx of new data from our netrunner, "
+                                 " we're on the verge getting the one up on Araska! I just wanted those reports to be the most recent as possbile."
+                                 "Christ Jensen why didn't say anything sooner!"
+                                 "Sorry...", name, " But could we keep this between us only... I get it you want to knock the bitch Eve off her throne but..."
+                                 "Even if what you say is true about getting me Tramua team platuim, I rather do it on my own instead of dirtying my hands with sin ")
                 
+                Pressure_or_Playitsafe = input("(Pressure/play it safe)")
+                if Pressure_or_Playitsafe == "Pressure":
+                    print("")
                 
                 
         
